@@ -1,0 +1,113 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0F0E17;
+    margin: 40px;
+}
+
+/* navbar  */
+
+navbar div h3 {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+navbar ul {
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+}
+
+navbar ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    padding: 1rem;
+}
+
+/* Introduction */
+.intro {
+    margin-top: 200px;
+    display: block;
+    width: 100%;
+    height: 200px;
+}
+
+.intro h2{
+    color: #FFFFFE;
+}
+.intro h1{
+    color: #FF8906;
+}
+.intro p{
+    color: #A7A9BE;
+}
+
+.intro img {
+    margin-top: -300px;
+    width: 500px;
+    height: 500px;
+    float: right;
+}
+
+/* medsos */
+
+ div.medsos-1 ul{
+    display: flex;
+    list-style: none;
+}
+
+div.medsos-1 ul li img {
+    height: 50px;
+    width: 50px;
+    padding: 4px;
+}
+
+div.medsos button{
+    height: 40px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #FF8906;
+    color: #FFFFFE;
+}
+
+
+
+div.skill {
+    margin-top: 30px;
+    width: 100%;
+    height: 200px;
+    background-color: #FFFFFE;
+    justify-content: center;
+    display: flex;
+}
+
+div.skill h1{
+    text-align: center;
+}
+
+div.project{
+    margin-top: 30px;
+    width: 100%;
+    height: 200px;
+}
+div.project h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+div.project p {
+    text-align: center;
+    color: aliceblue;
+}
